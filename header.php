@@ -30,19 +30,30 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<ul>
+				<ul class="announcement-bar__list">
 					<li>
 						<i class="bi bi-telephone rounded-circle"></i>
 						<a href="tel: +48 609 164 574">tel: +48 609 164 574</a>
 					</li>
 					<li>
-						<i class="bi bi-telephone rounded-circle"></i>
-						<a href="tel: +48 609 164 574">tel: +48 609 164 574</a>
+						<i class="bi bi-envelope rounded-circle"></i>
+						<a href="mailto:twoje@grzybole.pl">twoje@grzybole.pl</a>
 					</li>
 				</ul>
 			</div>
+
 			<div class="col-md-8">
-				Col two
+				<ul class="announcement-bar__list">
+					<li>
+						<i class="bi bi-truck rounded-circle"></i>Free EU Shipping
+					</li>
+					<li>
+						<i class="bi bi-clock-history rounded-circle"></i>30 DAYS MONEY BACK GUARANTEE
+					</li>
+					<li>
+						<i class="bi bi-person rounded-circle"></i>24/7 CUSTOMERS SUPPORT
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
