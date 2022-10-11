@@ -71,34 +71,16 @@
 					<?php the_custom_logo(); ?>
 				</div>
 				<div class="col-md-5">
-					 search
+					<?php aws_get_search_form( true ); ?>
 				</div>
 				
 				<div class="col cart">
-					Cart
+				<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
 				</div>
 
 			</div>
 
 		</div>
-		<div class="site-branding">
-			<?php
-			
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$grzybole_description = get_bloginfo( 'description', 'display' );
-			if ( $grzybole_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $grzybole_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'grzybole' ); ?></button>
