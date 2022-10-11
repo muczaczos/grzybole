@@ -10530,4 +10530,9 @@ textarea.form-control-lg {
   width: 30px;
   height: 30px;
   margin-right: 6px;
+}
+@media (max-width: 991.98px) {
+  .announcement-bar {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

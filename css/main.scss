@@ -49,4 +49,8 @@ $theme-colors: map-merge($theme-colors , $custom-color);
       }
     }
   }
+
+  @include media-breakpoint-down(lg){
+    display: none;
+  }
 }
