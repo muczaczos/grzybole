@@ -26,7 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'grzybole' ); ?></a>
 
 
-<div class="announcement-bar">
+<div class="announcement-bar pt-2 pb-2 ">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
