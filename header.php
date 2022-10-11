@@ -42,7 +42,7 @@
 				</ul>
 			</div>
 
-			<div class="col-md-8">
+			<div class="col-md-8 d-flex justify-content-end">
 				<ul class="announcement-bar__list">
 					<li>
 						<i class="bi bi-truck rounded-circle"></i>Free EU Shipping
