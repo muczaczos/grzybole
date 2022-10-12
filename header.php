@@ -67,7 +67,7 @@
 
 			<div class="row align-items-center">
 				
-				<div class="col site-header__logo">
+				<div class="col site-header__logo ">
 					<?php the_custom_logo(); ?>
 				</div>
 				<div class="col-md-5">
@@ -75,6 +75,7 @@
 				</div>
 				
 				<div class="col cart d-flex justify-content-end align-items-center">
+				<a href="<?php echo wc_get_cart_url(); ?>"<i class="bi bi-bag-dash p-2"></i></a>
 				<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
 				</div>
 
