@@ -62,3 +62,19 @@ $theme-colors: map-merge($theme-colors , $custom-color);
     border-radius: 20px!important;
   }
 }
+
+/* Main menu */
+.main-navigation{
+  font-weight: 600;
+  .current-menu-item{
+   background-color: rgb(149, 24, 149);
+  }
+  a{
+    color: var(--bs-white);
+    padding: 0.6rem 1.4rem;
+  }
+  a:hover{
+    background-color: rgb(149, 24, 149);
+  }
+
+}
