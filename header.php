@@ -65,7 +65,7 @@
 
 		<div class="container pt-2 pb-2">
 
-			<div class="row">
+			<div class="row align-items-center">
 				
 				<div class="col site-header__logo">
 					<?php the_custom_logo(); ?>
@@ -74,7 +74,7 @@
 					<?php aws_get_search_form( true ); ?>
 				</div>
 				
-				<div class="col cart">
+				<div class="col cart d-flex justify-content-end align-items-center">
 				<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
 				</div>
 
