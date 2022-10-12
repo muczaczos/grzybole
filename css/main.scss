@@ -77,4 +77,9 @@ $theme-colors: map-merge($theme-colors , $custom-color);
     background-color: rgb(149, 24, 149);
   }
 
+  .menu-toggle{
+    background-color: $primary;
+    color: white;
+    border: none;
+  }
 }

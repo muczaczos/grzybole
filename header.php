@@ -90,7 +90,10 @@
 			<div class="container d-flex justify-content-center">
 				<div class="row">
 					<div class="col-12 d-flex justify-content-center">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'grzybole' ); ?></button>
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+							<i class="bi bi-list"></i>
+							<?php esc_html_e( 'Primary Menu', 'grzybole' ); ?>
+						</button>
 					</div>
 					<div class="col-12 text-center">
 						<?php

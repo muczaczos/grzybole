@@ -10556,4 +10556,9 @@ textarea.form-control-lg {
 }
 .main-navigation a:hover {
   background-color: rgb(149, 24, 149);
+}
+.main-navigation .menu-toggle {
+  background-color: #7F187F;
+  color: white;
+  border: none;
 }/*# sourceMappingURL=main.css.map */
