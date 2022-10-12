@@ -33,11 +33,11 @@
 				<ul class="announcement-bar__list">
 					<li>
 						<i class="bi bi-telephone rounded-circle"></i>
-						<a href="tel: +48 609 164 574">tel: +48 609 164 574</a>
+						<a href="tel: +48 609 164 574" class="text-decoration-none">tel: +48 609 164 574</a>
 					</li>
 					<li>
 						<i class="bi bi-envelope rounded-circle"></i>
-						<a href="mailto:twoje@grzybole.pl">twoje@grzybole.pl</a>
+						<a href="mailto:twoje@grzybole.pl" class="text-decoration-none">twoje@grzybole.pl</a>
 					</li>
 				</ul>
 			</div>
