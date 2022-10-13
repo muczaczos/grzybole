@@ -60,11 +60,11 @@ get_header();
 
 		<section class="container">
 
-			<div class="row d-flex justify-content-center">
+		
 				<h1 class="text-center pt-5">Popular Products</h1>
-				<p class="w-25">We offer a number of high quality toys to help keep your pets healthy</p>
-			</div>
-			
+				<p class="text-center">We offer a number of high quality toys<br> to help keep your pets healthy</p>
+		
+
 		</section>
 
 
