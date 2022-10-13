@@ -61,9 +61,12 @@ get_header();
 		<section class="container">
 
 		
-				<h1 class="text-center pt-5">Popular Products</h1>
-				<p class="text-center">We offer a number of high quality toys<br> to help keep your pets healthy</p>
-		
+			<h1 class="text-center pt-5">Popular Products</h1>
+			<p class="text-center">We offer a number of high quality toys<br> to help keep your pets healthy</p>
+
+			<div class="pb-5 pt-5">
+				<?php echo do_shortcode('[products columns=4 limit=4]'); ?>
+			</div>
 
 		</section>
 
