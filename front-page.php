@@ -72,17 +72,20 @@ get_header();
 	
 		<section class="categories pt-5 pb-5">
 			<div class="container">
+				
 				<h1 class="text-center pt-5">Categories</h1>
 				<p class="text-center">We offer a number of high quality toys<br> to help keep your pets healthy</p>
-			</div>
+			
 
-			<div class="row pt-5">
-				<div class="categories__col col-md-4 col-sm-2">
-					<a href="#">
-						<img class="" src="<?php echo get_template_directory_uri();?>/img/slider/slider-3.jpg" alt="..." loading="lazy">
-						<h2>Growkity</h2>
-					</a>
+				<div class="row pt-5">
+					<div class="categories__col col-md-4 col-sm-2">
+						<a href="#">
+							<img class="" src="<?php echo get_template_directory_uri();?>/img/slider/slider-3.jpg" alt="..." loading="lazy">
+							<h2>Growkity</h2>
+						</a>
+					</div>
 				</div>
+
 			</div>
 		</section>
 
