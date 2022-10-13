@@ -57,6 +57,37 @@ get_header();
 				</button>
 			</div>
 		</section>
+
+		<section class="container">
+
+		<h1 class="text-center pt-5">Popular Products</h1>
+		<p>We offer a number of high quality toys to help keep your pets healthy</p>
+
+		</section>
+
+
+		<section class="container" style="padding-top: 400px">
+
+
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</main>
 
 <?php
