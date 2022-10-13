@@ -96,3 +96,11 @@ $utilities:(
     border: none;
   }
 }
+
+/********************* FRONT PAGE ***********************/
+/* Slider */
+.carousel{
+  .carousel-control-prev, .carousel-control-next {
+    width: 9%;
+  }
+}

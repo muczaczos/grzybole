@@ -10533,4 +10533,10 @@ textarea.form-control-lg {
   background-color: #7F187F;
   color: white;
   border: none;
+}
+
+/********************* FRONT PAGE ***********************/
+/* Slider */
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+  width: 9%;
 }/*# sourceMappingURL=main.css.map */
