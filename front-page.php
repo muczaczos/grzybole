@@ -61,7 +61,7 @@ get_header();
 		<section class="container">
 
 		<h1 class="text-center pt-5">Popular Products</h1>
-		<p>We offer a number of high quality toys to help keep your pets healthy</p>
+		<p class="w-25">We offer a number of high quality toys to help keep your pets healthy</p>
 
 		</section>
 
