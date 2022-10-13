@@ -16,6 +16,19 @@ $custom-color: (
 // Merge maps
 $theme-colors: map-merge($theme-colors , $custom-color);
 
+$utilities:(
+  "rounded": (
+    property: border-radius,
+    class: rounded,
+    values: (
+      null: 1rem,
+      circle: 50%
+    )
+  )
+);
+
+
+
 @import "./bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
