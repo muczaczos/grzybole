@@ -2,10 +2,12 @@
 
 $primary: rgb(127, 24, 127);
 $gray: #E6E6E6;
+$sale: red;
 
 $theme-colors: (
   "primary": $primary,
-  "gray": $gray
+  "gray": $gray,
+  "sale": $sale
 );
 
 // Create your own map
