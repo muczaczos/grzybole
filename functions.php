@@ -217,3 +217,37 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 	return $fragments;
 }
 
+
+/**
+ * Footer Widget One
+ */
+
+function custom_widget_footer_one() {
+	$args = array (
+		'id'                 => 'footer-widget-col-one',
+		'name'							 => __('footer_column_one', 'text_domain'),
+		'description'        => __('Column One', 'text_domain'),    
+		'before_title'       => '<h3 class="title">',
+		'after_title'        => '</h3>',
+		'before_widget'      => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'       => '</div>'
+	);
+	register_sidebar($args);
+}
+add_action('widgets_init','custom_widget_footer_one');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

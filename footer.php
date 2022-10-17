@@ -18,7 +18,7 @@
 			<div class="row">
 
 				<div class="col-2">
-					About
+					<?php dynamic_sidebar('footer-widget-col-one'); ?>
 				</div>
 
 				<div class="col-2">
