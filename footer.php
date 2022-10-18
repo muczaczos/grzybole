@@ -22,11 +22,11 @@
 				</div>
 
 				<div class="col-2">
-					Company
+				<?php dynamic_sidebar('footer-widget-col-two'); ?>
 				</div>
 
 				<div class="col-md-4 ms-auto">
-					Keep in Touch
+				<?php dynamic_sidebar('footer-widget-col-three'); ?>
 				</div>
 
 			</div>
