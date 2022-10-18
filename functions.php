@@ -263,7 +263,7 @@ add_action('widgets_init','custom_widget_footer_two');
 
 function custom_widget_footer_three() {
 	$args = array (
-		'id'                 => 'footer-widget-col-two',
+		'id'                 => 'footer-widget-col-three',
 		'name'							 => __('footer_column_three', 'text_domain'),
 		'description'        => __('Column One', 'text_domain'),    
 		'before_title'       => '<h3 class="title">',
