@@ -25,7 +25,7 @@
 				<?php dynamic_sidebar('footer-widget-col-two'); ?>
 				</div>
 
-				<div class="col-md-4 col-sm-12 ms-auto">
+				<div class="col-md-4 col-sm-12  ms-auto">
 				<?php dynamic_sidebar('footer-widget-col-three'); ?>
 				</div>
 
