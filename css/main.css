@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10563,6 +10564,21 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: "Roboto Slab", serif;
+  font-weight: normal;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Roboto Slab", serif;
+  font-weight: normal;
+}
+
+.button {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+}
+
 /********************* HEADER ***********************/
 .announcement-bar {
   font-size: 0.8rem;
@@ -10645,4 +10661,20 @@ textarea.form-control-lg {
   .categories .categories__col {
     height: 336px;
   }
+}
+
+/******************* Footer *******************/
+.site-footer .menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.site-footer .menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0.3rem;
+}
+.site-footer .menu a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */

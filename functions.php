@@ -160,20 +160,6 @@ function grzybole_scripts() {
 add_action( 'wp_enqueue_scripts', 'grzybole_scripts' );
 
 /**
- * Implement the Custom fonts 
- * font-family: 'Nunito', sans-serif;
- */
-function enqueue_custom_fonts(){
-	if(!is_admin()){
-		 wp_register_style('source_sans_pro', 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
-		 wp_register_style('Nunito', 'https://fonts.googleapis.com/css2?family=Nunito&family=Source+Sans+Pro:ital,wght@0,700;1,400&display=swap');
-		 wp_enqueue_style('source_sans_pro');
-		 wp_enqueue_style('Nunito');
-	}
-}
-add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');
-
-/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';

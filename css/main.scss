@@ -29,6 +29,27 @@ $utilities: (
 
 @import "./bootstrap/scss/bootstrap";
 
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+
+// Styles
+body {
+  font-family: $roboto-slab;
+  font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $roboto-slab;
+  font-weight: normal;
+}
+
+.button {
+  font-family: $roboto-slab;
+  font-weight: bold;
+}
 // Then add additional custom code here
 
 /********************* HEADER ***********************/
@@ -127,6 +148,24 @@ $utilities: (
       height: 336px;
     }
   }
+}
 
+/******************* Footer *******************/
+.site-footer {
+  .menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 
+    a {
+      color: $white;
+      text-decoration: none;
+      display: block;
+      padding: 0.3rem;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
 }
