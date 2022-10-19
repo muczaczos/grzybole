@@ -12302,3 +12302,8 @@ h6,
 .product .button.button.alt {
   background-color: rgb(127, 24, 127);
 }
+
+/******************* Checkout *******************/
+.wc-proceed-to-checkout .button.button.alt {
+  background-color: rgb(127, 24, 127);
+}
