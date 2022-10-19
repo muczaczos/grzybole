@@ -263,6 +263,13 @@ add_action('widgets_init','custom_widget_footer_three');
 
 
 
+/**
+ * Woocommerce
+ */
+add_theme_support('woocommerce');
+
+
+
 
 
 
