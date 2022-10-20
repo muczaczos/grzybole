@@ -251,20 +251,24 @@
     zoom: 1;
     margin: 0;
     padding: 0;
+    
 }
 .woocommerce div.product div.images .flex-control-thumbs li {
     width: 25%;
     float: left;
     margin: 0;
     list-style: none;
+    
 }
 .woocommerce div.product div.images .flex-control-thumbs li img {
     cursor: pointer;
     opacity: .5;
     margin: 0;
+    
 }
 .woocommerce div.product div.images .flex-control-thumbs li img.flex-active, .woocommerce div.product div.images .flex-control-thumbs li img:hover {
     opacity: 1;
+    
 }
 #add_payment_method .checkout .col-2 .form-row-first, #add_payment_method .checkout .col-2 .notes, .woocommerce div.product .woocommerce-product-gallery--columns-3 .flex-control-thumbs li:nth-child(3n+1), .woocommerce div.product .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1), .woocommerce div.product .woocommerce-product-gallery--columns-5 .flex-control-thumbs li:nth-child(5n+1), .woocommerce-cart .checkout .col-2 .form-row-first, .woocommerce-cart .checkout .col-2 .notes, .woocommerce-checkout .checkout .col-2 .form-row-first, .woocommerce-checkout .checkout .col-2 .notes {
     clear: left;
@@ -484,6 +488,8 @@
     display: block;
     margin: 0 0 1em;
     box-shadow: none;
+    border-radius: 20px;
+    overflow: hidden;
 }
 .woocommerce ul.products li.product strong {
     display: block;
@@ -573,6 +579,7 @@
     background-color: rgb(127,24,127);
     border: 0;
     display: block;
+    text-align: center;
     background-image: none;
     box-shadow: none;
     text-shadow: none;

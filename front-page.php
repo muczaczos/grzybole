@@ -58,7 +58,7 @@ get_header();
 			</div>
 		</section>
 
-		<section class="container">
+		<section class="container popular-products">
 			<h1 class="text-center pt-5">Popular Products</h1>
 			<p class="text-center">We offer a number of high quality toys<br> to help keep your pets healthy</p>
 
