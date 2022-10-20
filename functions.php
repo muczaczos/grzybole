@@ -272,10 +272,25 @@ add_theme_support('woocommerce');
 // Remove WooCommerce Styles
 function remove_woocommerce_styles($enqueue_styles){
 	unset($enqueue_styles['woocommerce-general']); //remove the gloss
-	unset($enqueue_styles['woocommerce-layout']); //remove the layout
-	unset($enqueue_styles['woocommerce-smallscreen']); //remove the smallscreen optimalisation
+	// unset($enqueue_styles['woocommerce-layout']); //remove the layout
+	// unset($enqueue_styles['woocommerce-smallscreen']); //remove the smallscreen optimalisation
+	return $enqueue_styles;
 }
 add_filter('woocommerce_enqueue_styles', 'remove_woocommerce_styles');
+
+
+
+/**
+ * Enqueue your own stylesheet
+ */
+function wp_enqueue_woocommerce_style(){
+	wp_register_style( 'mytheme-woocommerce', get_template_directory_uri() . '/css/woocommerce/woocommerce.css' );
+	
+	if ( class_exists( 'woocommerce' ) ) {
+		wp_enqueue_style( 'mytheme-woocommerce' );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'wp_enqueue_woocommerce_style' );
 
 
 
