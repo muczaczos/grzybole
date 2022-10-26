@@ -10530,4 +10530,8 @@ h6,
 }
 .site-footer .menu a:hover {
   text-decoration: underline;
+}
+
+.add_to_cart_button {
+  display: block !important;
 }/*# sourceMappingURL=main.css.map */
