@@ -120,7 +120,7 @@ get_header();
 			</div>
 		</section>
 
-		<section class="container pt-5">
+		<section class="container pt-5 special-offer">
 			<h1 class="text-center pt-5">Special offers</h1>
 			<p class="text-center">We offer a number of high quality toys<br> to help keep your pets healthy</p>
 

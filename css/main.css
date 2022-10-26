@@ -10532,6 +10532,11 @@ h6,
   text-decoration: underline;
 }
 
-.add_to_cart_button {
+.popular-products .add_to_cart_button, .special-offer .add_to_cart_button {
   display: block !important;
+  text-align: center;
+}
+.popular-products .attachment-woocommerce_thumbnail, .special-offer .attachment-woocommerce_thumbnail {
+  border-radius: 20px;
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
