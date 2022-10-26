@@ -10404,31 +10404,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  font-family: "Roboto Slab", serif;
-  font-weight: normal;
-}
-
-h1, .h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-  font-family: "Roboto Slab", serif;
-  font-weight: normal;
-}
-
-.button {
-  font-family: "Roboto Slab", serif;
-  font-weight: bold;
-}
-
 /********************* HEADER ***********************/
 .announcement-bar {
   font-size: 0.8rem;
