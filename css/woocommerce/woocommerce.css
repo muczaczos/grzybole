@@ -79,8 +79,8 @@
   --wc-primary-text: #e5b1e5;
   --wc-secondary: rgb(127, 24, 127);
   --wc-secondary-text: #fff;
-  --wc-highlight: #4c7f18;
-  --wc-highligh-text: #cbe5b1;
+  --wc-highlight: rgb(127, 24, 127);
+  --wc-highligh-text: #e5b1e5;
   --wc-content-bg: #fff;
   --wc-subtext: #767676;
 }
@@ -293,7 +293,7 @@ p.demo_store a,
 }
 .woocommerce div.product span.price,
 .woocommerce div.product p.price {
-  color: #4c7f18;
+  color: rgb(127, 24, 127);
   font-size: 1.25em;
 }
 .woocommerce div.product span.price ins,
@@ -311,7 +311,7 @@ p.demo_store a,
   font-size: 0.92em;
 }
 .woocommerce div.product .stock {
-  color: #4c7f18;
+  color: rgb(127, 24, 127);
 }
 .woocommerce div.product .out-of-stock {
   color: red;
@@ -624,8 +624,8 @@ p.demo_store a,
   left: -0.5em;
   margin: 0;
   border-radius: 100%;
-  background-color: #4c7f18;
-  color: #cbe5b1;
+  background-color: rgb(127, 24, 127);
+  color: #e5b1e5;
   font-size: 0.857em;
   z-index: 9;
 }
@@ -687,7 +687,7 @@ p.demo_store a,
   margin-top: 1em;
 }
 .woocommerce ul.products li.product .price {
-  color: #4c7f18;
+  color: rgb(127, 24, 127);
   display: block;
   font-weight: normal;
   margin-bottom: 0.5em;
@@ -2062,7 +2062,7 @@ p.demo_store a,
 .woocommerce-cart .cart-collaterals .cart_totals .discount td,
 .woocommerce-checkout .cart-collaterals .cart_totals .discount td,
 #add_payment_method .cart-collaterals .cart_totals .discount td {
-  color: #4c7f18;
+  color: rgb(127, 24, 127);
 }
 .woocommerce-cart .cart-collaterals .cart_totals tr td,
 .woocommerce-cart .cart-collaterals .cart_totals tr th,

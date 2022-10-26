@@ -15,8 +15,8 @@
   --wc-primary-text: #e5b1e5;
   --wc-secondary: rgb(127, 24, 127);
   --wc-secondary-text: #fff;
-  --wc-highlight: #4c7f18;
-  --wc-highligh-text: #cbe5b1;
+  --wc-highlight: rgb(127, 24, 127);
+  --wc-highligh-text: #e5b1e5;
   --wc-content-bg: #fff;
   --wc-subtext: #767676;
 }
@@ -42,8 +42,8 @@
   */
 }
 .woocommerce mark {
-  background-color: var(--wp--preset--color--foreground, #4c7f18);
-  color: var(--wp--preset--color--background, #cbe5b1);
+  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
+  color: var(--wp--preset--color--background, #e5b1e5);
 }
 .woocommerce a.button,
 .woocommerce button[name=add-to-cart],
@@ -162,8 +162,8 @@
   margin-top: 1rem;
 }
 .woocommerce span.onsale {
-  background-color: var(--wp--preset--color--foreground, #4c7f18);
-  color: var(--wp--preset--color--background, #cbe5b1);
+  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
+  color: var(--wp--preset--color--background, #e5b1e5);
 }
 .woocommerce table.variations tr {
   display: block;
