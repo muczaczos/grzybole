@@ -72,8 +72,8 @@
   --wc-blue: #2ea2cc;
   --wc-primary: rgb(127, 24, 127);
   --wc-primary-text: #e5b1e5;
-  --wc-secondary: #d68dd6;
-  --wc-secondary-text: #1f121f;
+  --wc-secondary: rgb(127, 24, 127);
+  --wc-secondary-text: #fff;
   --wc-highlight: #4c7f18;
   --wc-highligh-text: #cbe5b1;
   --wc-content-bg: #fff;
