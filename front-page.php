@@ -98,7 +98,7 @@ get_header();
 					</div>
 				</div>
 
-				<div class="row mb-3">
+				<div class="row">
 
 					<div class="categories__col col-md-4 col-sm-12 mb-3">
 						<a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
@@ -115,6 +115,30 @@ get_header();
 						</a>
 					</div>
 
+				</div>
+
+				<div class="row mb-5">
+
+					<div class="categories__col col-md-4 col-sm-12 mb-3">
+						<a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+							<img class="position-absolute top-0 bottom-0 end-0 start-0" src="<?php echo get_template_directory_uri();?>/img/slider/slider-3.jpg" alt="..." loading="lazy">
+							<h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary bg-opacity-75 text-white">Growkity</h2>
+						</a>
+					</div>
+
+					<div class="categories__col col-md-4 col-sm-12 mb-3">
+						<a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+							<img class="position-absolute top-0 bottom-0 end-0 start-0" src="<?php echo get_template_directory_uri();?>/img/slider/slider-2.jpg" alt="..." loading="lazy">
+							<h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary bg-opacity-75 text-white">Strzykawki</h2>
+						</a>
+					</div>
+
+					<div class="categories__col col-md-4 col-sm-12 mb-3">
+						<a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+							<img class="position-absolute top-0 bottom-0 end-0 start-0" src="<?php echo get_template_directory_uri();?>/img/slider/slider-1.jpg" alt="..." loading="lazy">
+							<h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary bg-opacity-75 text-white">Odciski</h2>
+						</a>
+					</div>
 				</div>
 
 			</div>

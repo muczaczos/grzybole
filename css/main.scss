@@ -3,6 +3,9 @@
 $primary: rgb(127, 24, 127);
 $gray: #E6E6E6;
 $sale: red;
+$headings-font-family: 'Nunito', sans-serif;
+$headings-font-weight: 800;
+$font-family-base: 'Poppins', sans-serif;
 
 $theme-colors: (
   "primary": $primary,
@@ -161,15 +164,15 @@ $headings-font-weight: 800;
   }
 }
 
-.popular-products, .special-offer{
+.popular-products,
+.special-offer {
   .add_to_cart_button {
     display: block !important;
     text-align: center;
-  }  
+  }
 
   .attachment-woocommerce_thumbnail {
     border-radius: 20px;
     overflow: hidden;
   }
 }
-

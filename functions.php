@@ -159,6 +159,19 @@ function grzybole_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'grzybole_scripts' );
 
+
+/**
+ * Implement the Custom fonts feature.
+ */
+function enqueue_custom_fonts(){
+	if (!is_admin()){
+		wp_register_style('source_sans_pro', 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1.600&display=swap');
+		wp_register_style('nunito', 'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@400,700&display=swap');
+		wp_enqueue_style('source_sans_pro', 'nunito');
+	}
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');
+
 /**
  * Implement the Custom Header feature.
  */
