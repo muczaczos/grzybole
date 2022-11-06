@@ -6,17 +6,17 @@
  * WooCommerce CSS Variables
  */
 :root {
-  --woocommerce: rgb(127, 24, 127);
+  --woocommerce: rgb(36, 60, 76);
   --wc-green: #7ad03a;
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: rgb(127, 24, 127);
-  --wc-primary-text: #e5b1e5;
-  --wc-secondary: rgb(127, 24, 127);
+  --wc-primary: rgb(36, 60, 76);
+  --wc-primary-text: #abbac4;
+  --wc-secondary: rgb(36, 60, 76);
   --wc-secondary-text: #fff;
-  --wc-highlight: rgb(127, 24, 127);
-  --wc-highligh-text: #e5b1e5;
+  --wc-highlight: rgb(36, 60, 76);
+  --wc-highligh-text: #abbac4;
   --wc-content-bg: #fff;
   --wc-subtext: #767676;
 }
@@ -42,8 +42,8 @@
   */
 }
 .woocommerce mark {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(36, 60, 76));
+  color: var(--wp--preset--color--background, #abbac4);
 }
 .woocommerce a.button,
 .woocommerce button[name=add-to-cart],
@@ -54,8 +54,8 @@
 }
 .woocommerce button.button,
 .woocommerce a.button {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(36, 60, 76));
+  color: var(--wp--preset--color--background, #abbac4);
 }
 .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], .woocommerce button.button.disabled:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover,
 .woocommerce a.button.disabled,
@@ -64,21 +64,21 @@
 .woocommerce a.button.disabled:hover,
 .woocommerce a.button:disabled:hover,
 .woocommerce a.button:disabled[disabled]:hover {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(36, 60, 76));
+  color: var(--wp--preset--color--background, #abbac4);
   opacity: 0.5;
 }
 .woocommerce #respond input#submit,
 .woocommerce input.button,
 .woocommerce a.button.alt {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(36, 60, 76));
+  color: var(--wp--preset--color--background, #abbac4);
 }
 .woocommerce #respond input#submit:hover,
 .woocommerce input.button:hover,
 .woocommerce a.button.alt:hover {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(36, 60, 76));
+  color: var(--wp--preset--color--background, #abbac4);
   opacity: 0.9;
 }
 .woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit:disabled[disabled], .woocommerce #respond input#submit.disabled:hover, .woocommerce #respond input#submit:disabled:hover, .woocommerce #respond input#submit:disabled[disabled]:hover,
@@ -94,8 +94,8 @@
 .woocommerce a.button.alt.disabled:hover,
 .woocommerce a.button.alt:disabled:hover,
 .woocommerce a.button.alt:disabled[disabled]:hover {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(36, 60, 76));
+  color: var(--wp--preset--color--background, #abbac4);
   opacity: 0.5;
 }
 
@@ -162,8 +162,8 @@
   margin-top: 1rem;
 }
 .woocommerce span.onsale {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(36, 60, 76));
+  color: var(--wp--preset--color--background, #abbac4);
 }
 .woocommerce table.variations tr {
   display: block;
@@ -384,13 +384,13 @@
 */
 p.demo_store,
 .woocommerce-store-notice {
-  background: var(--wp--preset--color--foreground, rgb(127, 24, 127));
+  background: var(--wp--preset--color--foreground, rgb(36, 60, 76));
   bottom: 0;
-  color: var(--wp--preset--color--background, #e5b1e5);
+  color: var(--wp--preset--color--background, #abbac4);
   position: fixed;
   top: auto !important;
 }
 p.demo_store a,
 .woocommerce-store-notice a {
-  color: var(--wp--preset--color--background, #e5b1e5);
-}/*# sourceMappingURL=woocommerce-blocktheme.css.map */
+  color: var(--wp--preset--color--background, #abbac4);
+}

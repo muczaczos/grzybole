@@ -897,7 +897,7 @@ p.demo_store,
 				}
 			}
 
-			.commentlist > li::before {
+			.commentlist>li::before {
 				content: "";
 			}
 		}
@@ -1011,7 +1011,7 @@ p.demo_store,
 				text-indent: 0;
 			}
 
-			&:hover ~ a::before {
+			&:hover~a::before {
 				content: "\e021";
 			}
 		}
@@ -1028,7 +1028,7 @@ p.demo_store,
 					content: "\e020";
 				}
 
-				~ a::before {
+				~a::before {
 					content: "\e021";
 				}
 			}
@@ -1542,7 +1542,7 @@ p.demo_store,
 
 		.woocommerce-customer-details--phone::before {
 
-			@include iconbefore( "\e037" );
+			@include iconbefore("\e037");
 			margin-left: -1.5em;
 			line-height: 1.75;
 			position: absolute;
@@ -1550,7 +1550,7 @@ p.demo_store,
 
 		.woocommerce-customer-details--email::before {
 
-			@include iconbefore( "\e02d" );
+			@include iconbefore("\e02d");
 			margin-left: -1.5em;
 			line-height: 1.75;
 			position: absolute;
@@ -1580,7 +1580,7 @@ p.demo_store,
 
 		.woocommerce-widget-layered-nav-list__item--chosen a::before {
 
-			@include iconbefore( "\e013" );
+			@include iconbefore("\e013");
 			color: $red;
 		}
 	}
@@ -1607,7 +1607,7 @@ p.demo_store,
 
 				&::before {
 
-					@include iconbefore( "\e013" );
+					@include iconbefore("\e013");
 					color: $red;
 					vertical-align: inherit;
 					margin-right: 0.5em;
@@ -1720,7 +1720,7 @@ p.demo_store,
 
 		li.chosen a::before {
 
-			@include iconbefore( "\e013" );
+			@include iconbefore("\e013");
 			color: $red;
 		}
 	}
@@ -1870,7 +1870,7 @@ p.demo_store,
 
 			&::before {
 
-				@include iconbefore( "\e00a" );
+				@include iconbefore("\e00a");
 			}
 
 			.count {
@@ -1942,7 +1942,7 @@ p.demo_store,
 
 		.shipping-calculator-button::after {
 
-			@include iconafter( "\e019" );
+			@include iconafter("\e019");
 		}
 
 		.shipping-calculator-form {
@@ -2075,7 +2075,7 @@ p.demo_store,
 					box-shadow: none;
 				}
 
-				img + img {
+				img+img {
 					margin-left: 2px;
 				}
 			}
@@ -2205,7 +2205,8 @@ p.demo_store,
 			&::before {
 				content: "";
 				display: block;
-				border: 1em solid darken($secondary, 5%); /* arrow size / color */
+				border: 1em solid darken($secondary, 5%);
+				/* arrow size / color */
 				border-right-color: transparent;
 				border-left-color: transparent;
 				border-top-color: transparent;

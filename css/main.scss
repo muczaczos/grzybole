@@ -1,7 +1,12 @@
 // Include custom varables default overrides here
 
-$primary: rgb(127, 24, 127);
-$gray: #E6E6E6;
+$primary: rgb(36, 60, 76);
+$secondary: rgb(253, 225, 45);
+$third: rgb(50, 159, 91);
+$fourth: rgb(0, 151, 245);
+$fifth: rgb(214, 38, 62);
+$dark: rgb(21, 35, 44);
+$gray: rgb(32, 33, 34);
 $sale: red;
 $headings-font-family: 'Nunito', sans-serif;
 $headings-font-weight: 800;
@@ -9,13 +14,18 @@ $font-family-base: 'Poppins', sans-serif;
 
 $theme-colors: (
   "primary": $primary,
+  "secondary": $secondary,
+  "third": $third,
+  "fourth": $fourth,
+  "fifth": $fifth,
+  "dark": $dark,
   "gray": $gray,
   "sale": $sale
 );
 
 // Create your own map
 $custom-color: (
-  "icon-background": rgba(127, 24, 127, 0.2)
+  "icon-background": rgba(36, 60, 76, 0.2)
 );
 
 // Merge maps
@@ -86,8 +96,9 @@ $headings-font-weight: 800;
 .main-navigation {
   font-weight: 600;
 
+
   .current-menu-item {
-    background-color: rgb(149, 24, 149);
+    background-color: rgb(36, 60, 76);
   }
 
   a {
@@ -97,7 +108,7 @@ $headings-font-weight: 800;
   }
 
   a:hover {
-    background-color: rgb(149, 24, 149);
+    background-color: rgb(31, 51, 65);
   }
 
   .menu-toggle {
@@ -174,5 +185,23 @@ $headings-font-weight: 800;
   .attachment-woocommerce_thumbnail {
     border-radius: 20px;
     overflow: hidden;
+  }
+}
+
+.custom-logo {
+  height: 250px;
+}
+
+.woocommerce-loop-product__title {
+  color: $primary;
+}
+
+.cart-customlocation:visited {
+  color: $primary;
+}
+
+.product-name {
+  a:visited {
+    color: $primary;
   }
 }

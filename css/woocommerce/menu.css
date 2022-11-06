@@ -69,17 +69,17 @@
  * WooCommerce CSS Variables
  */
 :root {
-  --woocommerce: rgb(127, 24, 127);
+  --woocommerce: rgb(36, 60, 76);
   --wc-green: #7ad03a;
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: rgb(127, 24, 127);
-  --wc-primary-text: #e5b1e5;
-  --wc-secondary: rgb(127, 24, 127);
+  --wc-primary: rgb(36, 60, 76);
+  --wc-primary-text: #abbac4;
+  --wc-secondary: rgb(36, 60, 76);
   --wc-secondary-text: #fff;
-  --wc-highlight: rgb(127, 24, 127);
-  --wc-highligh-text: #e5b1e5;
+  --wc-highlight: rgb(36, 60, 76);
+  --wc-highligh-text: #abbac4;
   --wc-content-bg: #fff;
   --wc-subtext: #767676;
 }
@@ -272,4 +272,4 @@ span.mce_woocommerce_shortcodes_button::before {
   background: #a36597;
   border-color: #a36597;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 0 #a36597;
-}/*# sourceMappingURL=menu.css.map */
+}
