@@ -32,11 +32,11 @@
 			<div class="col-md-4">
 				<ul class="announcement-bar__list">
 					<li>
-						<i class="bi bi-telephone rounded-circle"></i>
+					<a href="tel: +48 609 164 574" class="text-decoration-none"><i class="bi bi-telephone rounded-circle"></i></a>
 						<a href="tel: +48 609 164 574" class="text-decoration-none">tel: +48 609 164 574</a>
 					</li>
 					<li>
-						<i class="bi bi-envelope rounded-circle"></i>
+					<a href="mailto:twoje@grzybole.pl" class="text-decoration-none"><i class="bi bi-envelope rounded-circle"></i></a>
 						<a href="mailto:twoje@grzybole.pl" class="text-decoration-none">twoje@grzybole.pl</a>
 					</li>
 				</ul>
@@ -44,15 +44,19 @@
 
 			<div class="col-md-8 d-flex justify-content-end">
 				<ul class="announcement-bar__list">
-					<li class="text-primary">
-						<i class="bi bi-truck rounded-circle"></i>Free EU Shipping
+
+					<li>
+					<a href="http://grzybole.local/my-account" class="text-decoration-none"><i class="bi bi-person rounded-circle"></i>Twoje Konto</a>
 					</li>
-					<li class="text-primary">
-						<i class="bi bi-clock-history rounded-circle"></i>30 DAYS MONEY BACK GUARANTEE
+
+					<li>
+					<a href="http://grzybole.local/checkout" class="text-decoration-none"><i class="bi bi-check-square rounded-circle"></i>Podsumowanie</a>
 					</li>
-					<li class="text-primary">
-						<i class="bi bi-person rounded-circle"></i>24/7 CUSTOMERS SUPPORT
+
+					<li>
+					<a href="http://grzybole.local/cart" class="text-decoration-none"><i class="bi bi-cart rounded-circle"></i>Koszyk</a>
 					</li>
+
 				</ul>
 			</div>
 		</div>
@@ -86,13 +90,13 @@
 	
 		<div class="row border-top border-primary">
 			<div class="col text-center">
-						<i class="bi bi-person"></i>
+			<a href="http://grzybole.local/my-account" class="text-decoration-none"><i class="bi bi-person rounded-circle"></i></a>
 			</div>
 			<div class="col text-center">
-						<i class="bi bi-envelope"></i>
+			<a href="http://grzybole.local/checkout" class="text-decoration-none"><i class="bi bi-check-square rounded-circle"></i></a>
 			</div>
 			<div class="col text-center">
-						<i class="bi bi-truck"></i>
+			<a href="http://grzybole.local/contact" class="text-decoration-none"><i class="bi bi-envelope rounded-circle"></i></a>
 			</div>
 		</div>
 	

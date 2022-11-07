@@ -2334,13 +2334,11 @@ textarea.form-control-lg {
   background-color: rgb(36, 60, 76);
   border: 0;
   border-radius: 1rem;
-  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-range::-webkit-slider-thumb {
-    -webkit-transition: none;
     transition: none;
   }
 }
@@ -2362,13 +2360,11 @@ textarea.form-control-lg {
   background-color: rgb(36, 60, 76);
   border: 0;
   border-radius: 1rem;
-  -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-range::-moz-range-thumb {
-    -moz-transition: none;
     transition: none;
   }
 }
@@ -10847,6 +10843,9 @@ textarea.form-control-lg {
   display: inline-flex;
   margin: 0 -10px;
 }
+.announcement-bar__list a:visited {
+  color: rgb(36, 60, 76);
+}
 .announcement-bar__list li {
   margin: 0 10px;
   display: flex;
@@ -10868,7 +10867,7 @@ textarea.form-control-lg {
 }
 
 .announcement-bar-mobile {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .announcement-bar-mobile__list {
   padding: 0;
@@ -10890,6 +10889,9 @@ textarea.form-control-lg {
   width: 30px;
   height: 30px;
   margin-right: 6px;
+}
+.announcement-bar-mobile a:visited {
+  color: rgb(36, 60, 76);
 }
 @media (min-width: 992px) {
   .announcement-bar-mobile {
@@ -10993,4 +10995,4 @@ textarea.form-control-lg {
 
 .product-name a:visited {
   color: rgb(36, 60, 76);
-}/*# sourceMappingURL=main.css.map */
+}
