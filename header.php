@@ -59,8 +59,6 @@
 	</div>
 </div>
 
-
-
 	<header id="masthead" class="site-header">
 
 		<div class="container pt-2">
@@ -84,7 +82,21 @@
 		</div>
 
 
-
+		<div class="announcement-bar-mobile pt-2 ">
+	
+		<div class="row border-top border-primary">
+			<div class="col text-center">
+						<i class="bi bi-person"></i>
+			</div>
+			<div class="col text-center">
+						<i class="bi bi-envelope"></i>
+			</div>
+			<div class="col text-center">
+						<i class="bi bi-truck"></i>
+			</div>
+		</div>
+	
+</div>
 
 		<nav id="site-navigation" class="main-navigation bg-primary">
 			<div class="container d-flex justify-content-center">
@@ -92,7 +104,7 @@
 					<div class="col-12 d-flex justify-content-center">
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
 							<i class="bi bi-list"></i>
-							<?php esc_html_e( 'Primary Menu', 'grzybole' ); ?>
+							<?php esc_html_e( 'Menu', 'grzybole' ); ?>
 						</button>
 					</div>
 					<div class="col-12 text-center">

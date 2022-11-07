@@ -84,6 +84,39 @@ $headings-font-weight: 800;
   }
 }
 
+.announcement-bar-mobile {
+  font-size: 2rem;
+
+  &__list {
+    
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0 -10px;
+
+    li {
+      margin: 0 10px;
+      display: flex;
+      align-items: center;
+
+      .bi {
+        color: $primary;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        margin-right: 6px;
+      }
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}
+
 .site-header {
   .aws-search-field {
     font-size: 0.9rem;
@@ -122,6 +155,7 @@ $headings-font-weight: 800;
       background-color: $primary;
     }
   }
+
 }
 
 /********************* FRONT PAGE ***********************/

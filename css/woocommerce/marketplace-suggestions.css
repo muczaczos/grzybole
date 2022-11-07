@@ -358,4 +358,4 @@ a.suggestion-dismiss::before {
 .marketplace-suggestions-container.showing-suggestion[data-marketplace-suggestions-context=orders-list-empty-footer]:last-child,
 .marketplace-suggestions-container.showing-suggestion[data-marketplace-suggestions-context=orders-list-empty-body]:last-child {
   border-bottom: 1px solid #ddd;
-}
+}/*# sourceMappingURL=marketplace-suggestions.css.map */

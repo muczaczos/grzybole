@@ -1303,7 +1303,6 @@ ul.wc_coupon_list li.code {
   padding: 0 0.5em;
   background-color: #fff;
   border: 1px solid #aaa;
-  -webkit-box-shadow: 0 1px 0 #dfdfdf;
   box-shadow: 0 1px 0 #dfdfdf;
   border-radius: 4px;
   margin-right: 5px;
@@ -1776,10 +1775,6 @@ ul.wc_coupon_list_block li:last-child {
   color: #999;
   background: #f8f8f8;
   -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 #woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items thead th.sortable {
@@ -7551,8 +7546,6 @@ table.bar_chart tbody td.bars span.alt span {
   overflow: hidden;
   color: #ccc;
   width: 100%;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .woocommerce-progress-form-wrapper .wc-progress-steps li,
@@ -7617,7 +7610,6 @@ table.bar_chart tbody td.bars span.alt span {
   border-radius: 4px;
   background-color: #bb77ae;
   border-color: #a36597;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 0 #a36597;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 0 #a36597;
   text-shadow: 0 -1px 1px #a36597, 1px 0 1px #a36597, 0 1px 1px #a36597, -1px 0 1px #a36597;
   margin: 0;
@@ -7632,7 +7624,6 @@ table.bar_chart tbody td.bars span.alt span {
 .woocommerce-importer-wrapper .button:active {
   background: #a36597;
   border-color: #a36597;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 0 #a36597;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 0 #a36597;
 }
 .woocommerce-progress-form-wrapper .error .button,
@@ -7983,7 +7974,6 @@ table.bar_chart tbody td.bars span.alt span {
 .woocommerce-importer-wrapper .wc-progress-form-content .woocommerce-exporter-options th .woocommerce-importer-file-url-field-wrapper,
 .woocommerce-importer-wrapper .wc-progress-form-content .woocommerce-exporter-options td .woocommerce-importer-file-url-field-wrapper {
   border: 1px solid #ddd;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
   background-color: #fff;
   color: #32373c;
@@ -8150,6 +8140,7 @@ table.bar_chart tbody td.bars span.alt span {
   box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
   background: #a46497;
   background: linear-gradient(to bottom, #a46497, #66405f), #a46497;
+  -webkit-transition: width 1s ease;
   transition: width 1s ease;
 }
 .woocommerce-progress-form-wrapper .woocommerce-exporter progress::-moz-progress-bar,
@@ -8165,6 +8156,7 @@ table.bar_chart tbody td.bars span.alt span {
   box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
   background: #a46497;
   background: linear-gradient(to bottom, #a46497, #66405f), #a46497;
+  -moz-transition: width 1s ease;
   transition: width 1s ease;
 }
 .woocommerce-progress-form-wrapper .woocommerce-exporter progress::-ms-fill,
@@ -8180,6 +8172,7 @@ table.bar_chart tbody td.bars span.alt span {
   box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
   background: #a46497;
   background: linear-gradient(to bottom, #a46497, #66405f), #a46497;
+  -ms-transition: width 1s ease;
   transition: width 1s ease;
 }
 .woocommerce-progress-form-wrapper .woocommerce-exporter.woocommerce-exporter__exporting .spinner, .woocommerce-progress-form-wrapper .woocommerce-exporter.woocommerce-importer__importing .spinner,
@@ -8763,4 +8756,4 @@ table.bar_chart tbody td.bars span.alt span {
 }
 #postexcerpt > .postbox-header > .hndle > .woocommerce-help-tip {
   margin: 0 10px;
-}
+}/*# sourceMappingURL=admin.css.map */
