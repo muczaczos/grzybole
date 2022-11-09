@@ -2334,13 +2334,11 @@ textarea.form-control-lg {
   background-color: rgb(36, 60, 76);
   border: 0;
   border-radius: 1rem;
-  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-range::-webkit-slider-thumb {
-    -webkit-transition: none;
     transition: none;
   }
 }
@@ -2362,13 +2360,11 @@ textarea.form-control-lg {
   background-color: rgb(36, 60, 76);
   border: 0;
   border-radius: 1rem;
-  -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-range::-moz-range-thumb {
-    -moz-transition: none;
     transition: none;
   }
 }
@@ -10909,6 +10905,13 @@ textarea.form-control-lg {
   border-radius: 20px !important;
 }
 
+.site-footer .widget_block {
+  border-top: 1px solid rgb(41, 68, 86);
+  border-bottom: 1px solid rgb(41, 68, 86);
+}
+.site-footer .widget_block h2, .site-footer .widget_block .h2 {
+  margin-top: 10px;
+}
 /* Main menu */
 .main-navigation {
   font-weight: 600;
@@ -10931,6 +10934,16 @@ textarea.form-control-lg {
 }
 .main-navigation .sub-menu li {
   background-color: rgb(36, 60, 76);
+}
+@media (min-width: 576px) {
+  .main-navigation .container {
+    display: flex;
+  }
+}
+@media (max-width: 767.98px) {
+  .main-navigation .container {
+    padding: 0 0;
+  }
 }
 
 /********************* FRONT PAGE ***********************/
@@ -10999,4 +11012,4 @@ textarea.form-control-lg {
 
 .product-name a:visited {
   color: rgb(36, 60, 76);
-}/*# sourceMappingURL=main.css.map */
+}

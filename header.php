@@ -103,7 +103,7 @@
 </div>
 
 		<nav id="site-navigation" class="main-navigation bg-primary">
-			<div class="container d-flex justify-content-center">
+			<div class="container justify-content-center">
 				<div class="row">
 					<div class="col-12 d-flex justify-content-center">
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">

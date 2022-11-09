@@ -28,8 +28,8 @@
 				<div class="col-lg-2 col-sm-6">
 					<?php dynamic_sidebar('footer-widget-col-four'); ?>
 				</div>
-
-				<div class="col-md-4 col-sm-12  ms-auto">
+				
+				<div class="col-lg-4 col-sm-12  ms-auto">
 				<?php dynamic_sidebar('footer-widget-col-three'); ?>
 				</div>
 

@@ -133,10 +133,27 @@ $headings-font-weight: 800;
   }
 }
 
+.site-footer {
+
+  .widget_block {
+    border-top: 1px solid rgb(41, 68, 86);
+    border-bottom: 1px solid rgb(41, 68, 86);
+
+    h2 {
+      margin-top: 10px;
+    }
+  }
+
+  .widget {
+
+    .title {}
+  }
+
+}
+
 /* Main menu */
 .main-navigation {
   font-weight: 600;
-
 
   .current-menu-item {
     background-color: rgb(36, 60, 76);
@@ -164,6 +181,17 @@ $headings-font-weight: 800;
     }
   }
 
+  @include media-breakpoint-up(sm) {
+    .container {
+      display: flex;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .container {
+      padding: 0 0;
+    }
+  }
 }
 
 /********************* FRONT PAGE ***********************/
