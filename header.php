@@ -78,7 +78,9 @@
 				
 				<div class="col cart d-flex justify-content-center justify-content-md-end align-items-center pt-2">
 				<a href="<?php echo wc_get_cart_url();?>" <i class="bi bi-bag-dash p-2 text-primary"></i></a>
-				<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
+
+				<a class="cart-custom" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d produkt', '%d produkty', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
+
 				</div>
 
 			</div>
@@ -96,7 +98,7 @@
 			<a href="<?php echo get_home_url(); ?>/podsumowanie" class="text-decoration-none"><i class="bi bi-check-square rounded-circle"></i></a>
 			</div>
 			<div class="col text-center">
-			<a href="<?php echo get_home_url(); ?>/kontakt" class="text-decoration-none"><i class="bi bi-envelope rounded-circle"></i></a>
+			<a href="<?php echo get_home_url(); ?>/koszyk" class="text-decoration-none"><i class="bi bi-envelope rounded-circle"></i></a>
 			</div>
 		</div>
 	

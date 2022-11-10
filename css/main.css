@@ -2334,11 +2334,13 @@ textarea.form-control-lg {
   background-color: rgb(36, 60, 76);
   border: 0;
   border-radius: 1rem;
+  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-range::-webkit-slider-thumb {
+    -webkit-transition: none;
     transition: none;
   }
 }
@@ -2360,11 +2362,13 @@ textarea.form-control-lg {
   background-color: rgb(36, 60, 76);
   border: 0;
   border-radius: 1rem;
+  -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-range::-moz-range-thumb {
+    -moz-transition: none;
     transition: none;
   }
 }
@@ -11006,10 +11010,10 @@ textarea.form-control-lg {
   color: rgb(36, 60, 76);
 }
 
-.cart-customlocation:visited {
+.cart-custom:visited {
   color: rgb(36, 60, 76);
 }
 
 .product-name a:visited {
   color: rgb(36, 60, 76);
-}
+}/*# sourceMappingURL=main.css.map */
