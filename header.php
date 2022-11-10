@@ -46,15 +46,15 @@
 				<ul class="announcement-bar__list">
 
 					<li>
-					<a href="http://grzybole.local/my-account" class="text-decoration-none"><i class="bi bi-person rounded-circle"></i>Twoje Konto</a>
+					<a href="<?php echo get_home_url(); ?>/moje-konto" class="text-decoration-none"><i class="bi bi-person rounded-circle"></i>Twoje Konto</a>
 					</li>
 
 					<li>
-					<a href="http://grzybole.local/checkout" class="text-decoration-none"><i class="bi bi-check-square rounded-circle"></i>Podsumowanie</a>
+					<a href="<?php echo get_home_url(); ?>/podsumowanie" class="text-decoration-none"><i class="bi bi-check-square rounded-circle"></i>Podsumowanie</a>
 					</li>
 
 					<li>
-					<a href="http://grzybole.local/cart" class="text-decoration-none"><i class="bi bi-cart rounded-circle"></i>Koszyk</a>
+					<a href="<?php echo get_home_url(); ?>/koszyk" class="text-decoration-none"><i class="bi bi-cart rounded-circle"></i>Koszyk</a>
 					</li>
 
 				</ul>
