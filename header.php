@@ -90,13 +90,13 @@
 	
 		<div class="row border-top border-primary">
 			<div class="col text-center">
-			<a href="http://grzybole.local/my-account" class="text-decoration-none"><i class="bi bi-person rounded-circle"></i></a>
+			<a href="<?php echo get_home_url(); ?>/moje-konto" class="text-decoration-none"><i class="bi bi-person rounded-circle"></i></a>
 			</div>
 			<div class="col text-center">
-			<a href="http://grzybole.local/checkout" class="text-decoration-none"><i class="bi bi-check-square rounded-circle"></i></a>
+			<a href="<?php echo get_home_url(); ?>/podsumowanie" class="text-decoration-none"><i class="bi bi-check-square rounded-circle"></i></a>
 			</div>
 			<div class="col text-center">
-			<a href="http://grzybole.local/contact" class="text-decoration-none"><i class="bi bi-envelope rounded-circle"></i></a>
+			<a href="<?php echo get_home_url(); ?>/kontakt" class="text-decoration-none"><i class="bi bi-envelope rounded-circle"></i></a>
 			</div>
 		</div>
 	
