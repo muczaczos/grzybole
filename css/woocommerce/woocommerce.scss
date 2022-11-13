@@ -561,7 +561,8 @@ p.demo_store,
 			top: 0;
 			right: 0;
 			left: auto;
-			margin: -0.5em -0.5em 0 0;
+			padding: 10px;
+			margin: -0.2em -0.2em -0.2em -0.2em;
 		}
 
 		h3,
@@ -2329,4 +2330,33 @@ body:not(.search-results) .twentysixteen .entry-summary {
 .twentysixteen .price ins {
 	background: inherit;
 	color: inherit;
+}
+
+.page-description {
+	.wp-block-code {
+		display: none !important;
+		background-color: black;
+	}
+}
+
+.product-category {
+	background-color: rgb(36, 60, 76);
+	border-radius: 2%;
+
+	img {
+		border-top-left-radius: 2%;
+		border-top-right-radius: 2%;
+	}
+
+	.woocommerce-loop-category__title {
+		color: white;
+		display: flex;
+		justify-content: center;
+		font-size: 1.5em !important;
+		padding-bottom: 20px !important;
+	}
+
+	.count {
+		display: none;
+	}
 }
