@@ -1,10 +1,10 @@
 // Include custom varables default overrides here
 
-$primary: rgb(36, 60, 76);
+$primary: #243c4c;
 $secondary: rgb(253, 225, 45);
 $third: rgb(50, 159, 91);
 $fourth: rgb(0, 151, 245);
-$fifth: rgb(214, 38, 62);
+$fifth: #d6263e;
 $dark: rgb(21, 35, 44);
 $gray: rgb(32, 33, 34);
 $sale: red;
@@ -50,6 +50,9 @@ $headings-font-weight: 800;
 // Then add additional custom code here
 
 /********************* HEADER ***********************/
+.entry-title {
+  color: $primary;
+}
 .announcement-bar {
   font-size: 0.8rem;
 
@@ -272,6 +275,13 @@ $headings-font-weight: 800;
 
 .product-name {
   a:visited {
+    color: $primary;
+  }
+}
+
+/************** Posts *********************/
+.post-10, .post-3 {
+  h2{
     color: $primary;
   }
 }

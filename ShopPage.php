@@ -21,11 +21,12 @@ get_header();
 	
 		<section class="categories pt-5 pb-5">
 			<div class="container">
+			  <h1 class="text-center text-primary">Nasz sklep</h1>
+				<p class="text-center text-primary">Zapraszam Cię do naszego Myko Marketu</p>
+				<div class="text-center pt-5">
+					<img class="" src="<?php echo get_template_directory_uri();?>/img/slider/sklep.svg" alt="sklep z grzybami" loading="lazy">
+				</div>
 				
-				<h1 class="text-center pt-5">Nasz Sklep</h1>
-				<p class="text-center">Produkty posegregowałem w kategorie.<br>Ułatwią Ci one odnaleźć się w labiryncie grzybni.</p>
-			
-
 				<div class="row pt-5">
 
 					<div class="categories__col col-md-4 col-sm-12 mb-3">

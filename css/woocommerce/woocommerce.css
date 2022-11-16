@@ -1367,6 +1367,7 @@ p.demo_store a,
   margin: 0 0 6px;
 }
 .woocommerce form .form-row [placeholder]:focus::-webkit-input-placeholder {
+  -webkit-transition: opacity 0.5s 0.5s ease;
   transition: opacity 0.5s 0.5s ease;
   opacity: 0;
 }
@@ -2528,4 +2529,4 @@ body:not(.search-results) .twentysixteen .entry-summary {
 }
 .product-category .count {
   display: none;
-}
+}/*# sourceMappingURL=woocommerce.css.map */
