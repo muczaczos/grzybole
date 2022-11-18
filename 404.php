@@ -21,7 +21,9 @@ get_header();
 				<p class="text-center"><?php esc_html_e( 'To nic takiego. Po prostu użyj wyszukiwarki na górze srony lub naciśnij na grzyb, żeby wrócić do grzybolowego domu :)', 'grzybole' ); ?></p>
 			</div><!-- .page-content -->
 			<div class="text-center pb-5">
-				<img class="center" src="<?php echo get_template_directory_uri();?>/img/slider/404.svg" alt="..." loading="lazy">
+				<a href="<?php echo esc_url( home_url( '/' ) );?>">
+					<img class="center" src="<?php echo get_template_directory_uri();?>/img/slider/404.svg" alt="..." loading="lazy">
+				</a>
 		  </div>
 		</section><!-- .error-404 -->
 
