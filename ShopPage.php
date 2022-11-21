@@ -30,14 +30,14 @@ get_header();
 				<div class="row pt-5">
 
 					<div class="categories__col col-md-4 col-sm-12 mb-3">
-						<a href="<?php echo get_permalink( wc_get_page_id( 'home' ) );?>/grzybowe/substraty" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+						<a href="<?php echo get_permalink( wc_get_page_id( 'home' ) );?>/substraty" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
 							<img class="position-absolute top-0 bottom-0 end-0 start-0" src="<?php echo get_template_directory_uri();?>/img/slider/slider-3.jpg" alt="..." loading="lazy">
 							<h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-secondary bg-opacity-75 text-white">Substraty</h2>
 						</a>
 					</div>
 
 					<div class="categories__col col-md-4 col-sm-12 mb-3">
-						<a href="<?php echo get_permalink( wc_get_page_id( 'home' ) );?>/grzybowe/laboratorium" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+						<a href="<?php echo get_permalink( wc_get_page_id( 'home' ) );?>/laboratorium" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
 							<img class="position-absolute top-0 bottom-0 end-0 start-0" src="<?php echo get_template_directory_uri();?>/img/slider/slider-2.jpg" alt="..." loading="lazy">
 							<h2 class="position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-third bg-opacity-75 text-white">Laboratorium</h2>
 						</a>
