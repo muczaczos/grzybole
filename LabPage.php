@@ -23,7 +23,7 @@ get_header();
 			<div class="container">
 			  <h1 class="text-center text-primary">Laboratorium</h1>
         <div class="row pt-5 align-items-center">
-            <div class="col-md-6 col-sm-12 pb-5"><img class="" src="<?php echo get_template_directory_uri();?>/img/slider/lab.svg" alt="sklep z grzybami" loading="lazy"></div>  
+            <div class="col-md-6 col-sm-12 pb-5"><img class="" src="<?php echo get_template_directory_uri();?>/img/slider/lab.svg" alt="Sprzęt do mykologii" loading="lazy"></div>  
             <div class="col-md-6 col-sm-12"><p class="text-primary align-middle">Laboratorium to moja kuchnia, w której przygotowuje jedzenie dla grzybów. Ta kategoria zawiera produkty, niezbędne w każdym mykologicznym laboratorium.</p></div>
 			</div>
         </div>

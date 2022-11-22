@@ -11024,8 +11024,7 @@ textarea.form-control-lg {
 .post-3 .h2 {
   color: #243c4c;
 }
-.post-10 h1, .post-10 .h1,
-.post-3 h1,
-.post-3 .h1 {
-  text-align: center;
+
+.cat-text {
+  vertical-align: middle;
 }
