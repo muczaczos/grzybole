@@ -67,7 +67,7 @@ get_header();
 			</div>
 		</section>
 	
-		<section class="categories pt-5 pb-5">
+		<section class="page-title-header pt-5 pb-5">
 			<div class="container">
 				
 				<h1 class="text-center pt-5">Kategorie</h1>

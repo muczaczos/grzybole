@@ -10916,6 +10916,7 @@ textarea.form-control-lg {
 .site-footer .widget_block h2, .site-footer .widget_block .h2 {
   margin-top: 10px;
 }
+
 /* Main menu */
 .main-navigation {
   font-weight: 600;
@@ -10959,7 +10960,7 @@ textarea.form-control-lg {
 
 /******************* Categories ****************/
 .categories {
-  background-color: #f9f9f9;
+  background-color: white;
 }
 .categories .categories__col {
   height: 212px;
@@ -10971,6 +10972,24 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .categories .categories__col {
+    height: 336px;
+  }
+}
+
+/******************* Pages *********************/
+.page-title-header {
+  background-color: #f9f9f9;
+}
+.page-title-header .categories__col {
+  height: 212px;
+}
+.page-title-header .categories__col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  .page-title-header .categories__col {
     height: 336px;
   }
 }
@@ -11028,4 +11047,17 @@ textarea.form-control-lg {
 .post-3 h1,
 .post-3 .h1 {
   text-align: center;
+}
+
+/************* LISTS ******************/
+.list-group {
+  list-style: decimal inside;
+}
+
+.list-group-un {
+  list-style: circle inside;
+}
+
+.list-group-item {
+  display: list-item;
 }

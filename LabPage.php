@@ -19,7 +19,7 @@ get_header();
 
 	<main id="primary" class="site-main">
 	
-		<section class="categories pt-5 pb-5">
+		<section class="page-title-header pt-5 pb-5">
 			<div class="container">
 			    <h1 class="text-center text-primary">Laboratorium</h1>
                 <div class="row pt-5 align-items-center">
@@ -28,7 +28,7 @@ get_header();
 			    </div>
             </div>
 		</section>
-        <section class="categories pt-5 pb-5 bg-white">
+        <section class="pt-5 pb-5 bg-white">
 		    <div class="container">
                 <div class="pb-5">
 				    <?php echo do_shortcode('[products columns=4 category=laboratorium]'); ?>

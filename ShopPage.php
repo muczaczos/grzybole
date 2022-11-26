@@ -19,14 +19,17 @@ get_header();
 
 	<main id="primary" class="site-main">
 	
-		<section class="categories pt-5 pb-5">
+		<section class="page-title-header pt-5 pb-5">
 			<div class="container">
 			  <h1 class="text-center text-primary">Nasz Sklep</h1>
 			    <div class="row pt-5 align-items-center">
         		    <div class="col-md-6 col-sm-12 pb-5"><img class="" src="<?php echo get_template_directory_uri();?>/img/slider/sklep.svg" alt="sklep z grzybami" loading="lazy"></div>  
         		    <div class="col-md-6 col-sm-12 cat-text"><p class="text-primary cat-text">Zapraszam Cię do naszego Myko Marketu. Czy wiesz, że sposób odżywiania grzybów jest bardziej zbliżony do sposobu odżywiania zwierząt niż roślin? Grzybki nie mają zdolności fotosyntezy jak rośliny. Grzyby wydzielają na zewnątrz enzymy trawienne i wchłaniają rozłożone związki organiczne. W tym dziale znajdziesz jedzenie dla Twoich grzybów, żeby nigdy nie były już głodne. </p></div>
                 </div>
-				
+			</div>
+		</section>	
+		<section class="categories pt-5 pb-5">
+			<div class="container">
 				<div class="row pt-5">
 
 					<div class="categories__col col-md-4 col-sm-12 mb-3">

@@ -147,12 +147,6 @@ $headings-font-weight: 800;
       margin-top: 10px;
     }
   }
-
-  .widget {
-
-    .title {}
-  }
-
 }
 
 /* Main menu */
@@ -210,6 +204,27 @@ $headings-font-weight: 800;
 
 /******************* Categories ****************/
 .categories {
+  background-color: white;
+
+  .categories__col {
+    height: 212px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .categories__col {
+      height: 336px;
+    }
+  }
+}
+
+/******************* Pages *********************/
+.page-title-header {
   background-color: #f9f9f9;
 
   .categories__col {
@@ -290,4 +305,17 @@ $headings-font-weight: 800;
   h1 {
     text-align: center;
   }
+}
+
+/************* LISTS ******************/
+.list-group {
+  list-style: decimal inside;
+}
+
+.list-group-un {
+  list-style: circle inside;
+}
+
+.list-group-item {
+  display: list-item;
 }
