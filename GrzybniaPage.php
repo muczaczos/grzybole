@@ -28,6 +28,13 @@ get_header();
                 </div>
             </div>
 		</section>
+		<section  class="pt-5 pb-5 bg-white">
+			<div class="container">
+          		<div class="pb-5">
+				    <?php echo do_shortcode('[products columns=4 category=kultury]'); ?>
+          		</div>
+	      	</div>
+    	</section>
 	</main>
 
 <?php
