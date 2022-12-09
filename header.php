@@ -98,7 +98,7 @@
 			<a href="<?php echo get_home_url(); ?>/podsumowanie" class="text-decoration-none"><i class="bi bi-check-square rounded-circle"></i></a>
 			</div>
 			<div class="col text-center">
-			<a href="<?php echo get_home_url(); ?>/koszyk" class="text-decoration-none"><i class="bi bi-envelope rounded-circle"></i></a>
+			<a href="<?php echo get_home_url(); ?>/kontakt" class="text-decoration-none"><i class="bi bi-envelope rounded-circle"></i></a>
 			</div>
 		</div>
 	

@@ -2334,11 +2334,13 @@ textarea.form-control-lg {
   background-color: #243c4c;
   border: 0;
   border-radius: 1rem;
+  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-range::-webkit-slider-thumb {
+    -webkit-transition: none;
     transition: none;
   }
 }
@@ -2360,11 +2362,13 @@ textarea.form-control-lg {
   background-color: #243c4c;
   border: 0;
   border-radius: 1rem;
+  -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-range::-moz-range-thumb {
+    -moz-transition: none;
     transition: none;
   }
 }
@@ -11061,3 +11065,11 @@ textarea.form-control-lg {
 .list-group-item {
   display: list-item;
 }
+
+.wpcf7-form-control {
+  width: 100%;
+}
+
+.onas {
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */
